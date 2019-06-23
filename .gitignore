@@ -1,0 +1,6 @@
+php-fpm/roundcube/src/*
+!/php-fpm/roundcube/src/.gitkeep
+php-fpm/roundcube/html/*
+!/php-fpm/roundcube/html/.gitkeep
+php-fpm/roundcube/db/*
+!/php-fpm/roundcube/db/.gitkeep
