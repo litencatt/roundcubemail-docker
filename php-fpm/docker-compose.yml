@@ -29,6 +29,8 @@ services:
     ports:
       - 3306:3306
     volumes:
+      #- ./roundcube/db:/var/lib/mysql
+      - ./roundcube/init.sql:/docker-entrypoint-initdb.d/init.sql
     environment:
       - MYSQL_ROOT_PASSWORD=mysqlrootpassword
       - MYSQL_DATABASE=roundcube
